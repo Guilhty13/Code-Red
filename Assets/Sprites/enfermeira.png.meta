@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 06538c4b444eb814888493a2d84e84a3
+guid: 0ebf8d4462b8e6a45b8ce8f7dfa6bda9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,6 +72,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -106,30 +119,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: medico W (1)_0
+      name: enfermeira_0
       rect:
         serializedVersion: 2
-        x: 128
-        y: 640
-        width: 256
-        height: 312
+        x: 13
+        y: 75
+        width: 38
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11b6e468e05004243a3325a63f041ac7
-      internalID: -1980546313
+      spriteID: 50619674c1617f04bb536ab190f2b23b
+      internalID: 1798132755
       vertices: []
       indices: 
       edges: []
@@ -154,7 +154,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      medico W (1)_0: -1980546313
+      enfermeira_0: 1798132755
+      enfermeira_1: -129569785
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
