@@ -62,4 +62,12 @@ public class player: MonoBehaviour
         }
 
     }
+
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        if(other.gameObject.name == "Sala")
+        {
+            SceneManager.LoadScene("Sala");
+        }    
+    }
 }
